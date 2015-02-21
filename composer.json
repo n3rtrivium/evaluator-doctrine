@@ -1,0 +1,20 @@
+{
+	"name" : "n3rtrivium/evaluator-doctrine",
+	"description" : "minimal doctrine app",
+	"require" : {
+		"doctrine/orm" : "2.4.*",
+		"symfony/yaml" : "2.*",
+		"symfony/http-foundation": "2.6.*"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"N3rtrivium\\EvaluatorDoctrine\\" : "src/"
+		}
+	},
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Martin Wind",
+			"email" : "mawi1988@gmail.com"
+		}
+	]
+}
